@@ -13,6 +13,8 @@
 		779A981A1C5B45D600EDE558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779A98181C5B45D600EDE558 /* Main.storyboard */; };
 		779A981C1C5B45D600EDE558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779A981B1C5B45D600EDE558 /* Assets.xcassets */; };
 		779A981F1C5B45D600EDE558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779A981D1C5B45D600EDE558 /* LaunchScreen.storyboard */; };
+		779A982B1C5B46EE00EDE558 /* GVSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A982A1C5B46EE00EDE558 /* GVSearchBarView.m */; };
+		779A982E1C5B497F00EDE558 /* GVSearchBarDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A982D1C5B497F00EDE558 /* GVSearchBarDisplayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		779A981B1C5B45D600EDE558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779A981E1C5B45D600EDE558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		779A98201C5B45D600EDE558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779A98291C5B46EE00EDE558 /* GVSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVSearchBarView.h; sourceTree = "<group>"; };
+		779A982A1C5B46EE00EDE558 /* GVSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVSearchBarView.m; sourceTree = "<group>"; };
+		779A982C1C5B497F00EDE558 /* GVSearchBarDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVSearchBarDisplayController.h; sourceTree = "<group>"; };
+		779A982D1C5B497F00EDE558 /* GVSearchBarDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVSearchBarDisplayController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				779A98131C5B45D600EDE558 /* AppDelegate.m */,
 				779A98151C5B45D600EDE558 /* ViewController.h */,
 				779A98161C5B45D600EDE558 /* ViewController.m */,
+				779A98291C5B46EE00EDE558 /* GVSearchBarView.h */,
+				779A982A1C5B46EE00EDE558 /* GVSearchBarView.m */,
+				779A982C1C5B497F00EDE558 /* GVSearchBarDisplayController.h */,
+				779A982D1C5B497F00EDE558 /* GVSearchBarDisplayController.m */,
 				779A98181C5B45D600EDE558 /* Main.storyboard */,
 				779A981B1C5B45D600EDE558 /* Assets.xcassets */,
 				779A981D1C5B45D600EDE558 /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				779A98171C5B45D600EDE558 /* ViewController.m in Sources */,
+				779A982E1C5B497F00EDE558 /* GVSearchBarDisplayController.m in Sources */,
 				779A98141C5B45D600EDE558 /* AppDelegate.m in Sources */,
 				779A98111C5B45D600EDE558 /* main.m in Sources */,
+				779A982B1C5B46EE00EDE558 /* GVSearchBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
