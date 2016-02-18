@@ -46,6 +46,10 @@
 
 
 @interface GVSearchBarDisplayController : UIViewController
+@property (nonatomic,readonly)GVSearchBarView *searchBarView;
+@property(nonatomic,strong)UITableView *searchTableView;
 @property(nonatomic,weak)id<GVSearchBarDisplayDelegate>delegate;
--(instancetype)initWithSearchBar:(GVSearchBarView*) searchTableStyle:(UITableViewStyle)searchTableStyle;
+@property(nonatomic,assign)BOOL active;
+-(void)setActive:(BOOL)active animated:(BOOL)animated;
+-(instancetype)initWithSearchBar:(GVSearchBarView*)searchBar searchTableStyle:(UITableViewStyle)searchTableStyle;
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  GVSearchDisplayController
 //
 //  Created by Gavin on 16/2/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end
